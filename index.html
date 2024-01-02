@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Database</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="search">
+        <input type="text" id="movieName" class="search-input" placeholder="Search a movie">
+        <button class="btn" onclick="searchMovie()">Search Movie</button>
+    </div>
+    <div class="container">
+        <div class="content">
+            <h1 id="title">KGF Chapter-1</h1>
+            <p>Director: <span id="director"></span></p>
+            <p>Actor(s): <span id="actor"></span></p>
+            <p>Box-Office: <span id="boxoffice"></span></p>
+            <p>Description: <span id="description"></span></p>
+            <p>Awards: <span id="awards"></span></p>
+            <p>Writer(s): <span id="writer"></span></p>
+            <p>IMDB Ratings: <span id="ratings"></span></p>
+            <p>Genre: <span id="genere"></span></p>
+            <p>Released On: <span id="date"></span></p>
+        </div>
+        <img id="poster" src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/1b739c74284099.5c2a29444cdef.png" alt="KGF">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
